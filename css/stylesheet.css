@@ -1,0 +1,40 @@
+/*section {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: cornsilk;
+    text-align: center;
+    background-color: rgb(111, 23, 146);
+}*/
+
+section {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: cornsilk;
+    text-align: center;
+    background-color: rgb(111, 23, 146);
+    float: left;
+}
+
+.caja {
+    clear: both;
+    position: relative;
+}
+
+/*.caja {
+    position: fixed;
+    left: 600px;
+    border-radius: 50%;
+    bottom: 50px;
+}*/
+
+.caja {
+    position: static;
+    left: 600px;
+}
+
+
+
